@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ABCDialog</class>
+ <widget class="QDialog" name="ABCDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1030</width>
+    <height>758</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1011</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>44</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>168</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Kunden ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Umsatz (Euro)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Anteil (%)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kumuliert (%)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kategorie</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

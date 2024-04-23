@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestResult</class>
+ <widget class="QDialog" name="TestResult">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>864</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="examResultTable">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>841</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>80</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>167</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Reise</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Fehlendes Hotel</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Überflüssiges Hotel</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Überflüssiger Mietwagen</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kein Roundtrip</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
